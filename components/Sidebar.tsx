@@ -18,7 +18,7 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
   return (
     <aside className="sidebar">
       <Link href="/">
-      <span className="text-2xl font-bold tracking-tight text-primary">
+      <span className="text-3xl font-bold tracking-tight text-primary">
       SMART SPACE
       </span>
         {/* <Image

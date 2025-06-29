@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  reactStrictMode: true,
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -27,6 +28,7 @@ const nextConfig: NextConfig = {
         hostname: "cloud.appwrite.io",
       },
     ],
+    domains: ['fra.cloud.appwrite.io'],
   },
 };
 
